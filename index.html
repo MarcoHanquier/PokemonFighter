@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+<body>
+    <div id="contents">
+    <div id="mainScreen" class="center-div"> 
+    <div id="joueurActuelSidebar">
+    <h1 id="joueurActuelUI">Pokemon</h1>
+    <div id="boxJoueurActuel">
+        <div>       
+            <img id="box1JoueurActuel" class="thumbnail">
+            <img id="box2JoueurActuel" class="thumbnail">
+        </div>
+        <div>
+            <img id="box3JoueurActuel" class="thumbnail">
+            <img id="box4JoueurActuel" class="thumbnail">
+        </div>
+        <div>
+            <img id="box5JoueurActuel" class="thumbnail">
+            <img id="box6JoueurActuel" class="thumbnail">
+        </div>
+    </div>
+
+    </div>
+    <div id="joueurAdverseSidebar">
+    <h1 id="joueurAdverseUI">Pokemon</h1>
+    <div id="boxJoueurAdverse">
+        <div>       
+            <img id="box1JoueurAdverse" class="thumbnail">
+            <img id="box2JoueurAdverse" class="thumbnail">
+        </div>
+        <div>
+            <img id="box3JoueurAdverse" class="thumbnail">
+            <img id="box4JoueurAdverse" class="thumbnail">
+        </div>
+        <div>
+            <img id="box5JoueurAdverse" class="thumbnail">
+            <img id="box6JoueurAdverse" class="thumbnail">
+        </div>
+    </div>
+
+    </div>
+
+    <div id="joueurAdverse">
+    <div id="joueurAdverseBlocTexte">
+         <div id="joueurAdversePokemon"></div>
+         <progress id="joueurAdversePV" value="" max=""></progress>
+        </div>
+
+         <img id="joueurAdverseImage">
+
+    </div>
+ 
+<div id="joueurActuel">
+    <div id="joueurActuelBlocTexte">
+        <div id="joueurActuelPokemon"></div>
+        <!-- barre de vie  -->
+        <progress id="joueurActuelPV" value="" max=""></progress> 
+       </div>
+
+        <img id="joueurActuelImage">
+</div>
+
+    </div>
+
+    </div>
+
+<div id="controls">
+
+  
+    <div class="menuBouton">
+    <button id="attaque" class="hidden visible">Attaquer</button>
+    </div>
+    
+
+<div id="menuBouton" class="hidden visible">
+    <button id="utiliserObjet">Objet</button>
+    <button id="changerPokemon">Pokemon</button>
+</div>
+
+
+<div id="menuAttaque" class="hidden">
+    <div class="attaqueBouton">
+    <button id="attaque1" class="tooltip">Attaque 1</button>
+    <button id="attaque2" class="tooltip">Attaque 2</button>
+    </div>
+    <div >
+    <button id="attaque3" class="tooltip">Attaque 3</button>
+    <button id="attaque4" class="tooltip">Attaque 4</button>
+
+
+</div>
+    <div>
+    <button id="cancelAttaque">Annuler</button>
+    </div>
+</div>
+
+<div id="menuObjet" class="hidden">
+<ul>
+<li> Potion 1</li>
+<li> Potion 2</li>
+<li> Potion 3</li>
+</ul>
+<div>
+    <button id="cancelObjet">Annuler</button>
+    </div>
+</div>
+
+<div id="menuPokemon" class="hidden">
+    <div>
+        <button id="pokemon1">Pokemon 1</button>
+        <button id="pokemon2">Pokemon 2</button>
+    </div>
+    <div>
+        <button id="pokemon3">Pokemon 3</button>
+        <button id="pokemon4">Pokemon 4</button>
+    </div>
+    <div>
+        <button id="pokemon5">Pokemon 5</button>
+        <button id="pokemon6">Pokemon 6</button>
+    </div>
+
+
+
+    <div>
+        <button id="cancelPokemon">Annuler</button>
+        </div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
