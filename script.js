@@ -26,7 +26,7 @@ const attaque_Ecume = {
   precision: 100,
   pp: 30,
   type: "spéciale",
-  element: "Feu",
+  element: "Eau",
 };
 
 const attaque_Puissance = {
@@ -563,13 +563,40 @@ const pokemon_Mackogneur = {
     "https://img.pokemondb.net/sprites/sword-shield/normal/machamp.png",
 };
 
+const pokemon_Alakazam = {
+  name: "Alakazam",
+  PV: 610,
+  PVmax: 610,
+  PVp1: 610,
+  PVp2: 610,
+  element: "Psy",
+  element2: "",
+  attaque1: attaque_Hypnose,
+  attaque2: attaque_Devoreve,
+  attaque3: attaque_Ultralaser,
+  attaque4: attaque_RafalePsy,
+  protection: false,
+  burned: false,
+  statAttaque: 135,
+  statDéfense: 125,
+  statSpAttaque: 305,
+  statSpDéfense: 205,
+  statVitesse: 275,
+  imageFront:
+    "https://img.pokemondb.net/sprites/black-white/anim/normal/alakazam.gif",
+  imageBack:
+    "https://img.pokemondb.net/sprites/black-white/anim/back-normal/alakazam.gif",
+  thumbnail:
+    "https://img.pokemondb.net/sprites/sword-shield/normal/alakazam.png",
+};
+
 const player1 = {
   name: "Blue",
   id: 1,
   pokemon: 1, // points de vie du joueur
   pokemonActuel: pokemon_Pikachu,
   pokemon1: pokemon_Pikachu,
-  pokemon2: pokemon_Nosferalto,
+  pokemon2: pokemon_Tortank,
   pokemon3: pokemon_Leviator,
   pokemon4: pokemon_Mackogneur,
   pokemon5: pokemon_Ectoplasma,
@@ -580,10 +607,10 @@ const player2 = {
   name: "Red",
   id: 2,
   pokemon: 1,
-  pokemonActuel: pokemon_Bulbizarre,
+  pokemonActuel: pokemon_Nosferalto,
   pokemon1: pokemon_Nosferalto,
-  pokemon2: pokemon_Pikachu,
-  pokemon3: pokemon_Dracaufeu,
+  pokemon2: pokemon_Florizarre,
+  pokemon3: pokemon_Alakazam,
   pokemon4: pokemon_Mackogneur,
   pokemon5: pokemon_Dracolosse,
   pokemon6: pokemon_Papillusion,
